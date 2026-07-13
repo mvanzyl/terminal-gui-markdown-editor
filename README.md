@@ -9,41 +9,42 @@ It will probably never get updated because it does everything I set out to make 
 Cheers,
 
 
-<img width="2525" height="1330" alt="Preview 2" src="https://github.com/user-attachments/assets/b3562ca0-c73f-460c-a12a-987b42308b2d" />
+<img width="2560" height="1439" alt="preview-md-final" src="https://github.com/user-attachments/assets/a18caec8-0de4-4526-b6d1-956acf386db7" />
 <br>
 <br>
 <br>
 <br>
 <br>
 
-<img width="2509" height="1270" alt="Preview" src="https://github.com/user-attachments/assets/886a8f11-75f9-48ea-bfac-f3b1ea105783" />
+<img width="2560" height="1440" alt="files-final" src="https://github.com/user-attachments/assets/fdd540fe-b153-47a0-9333-81b02c0c13ad" />
 <br>
 <br>
 <br>
 <br>
 <br>
 
-<img width="2494" height="1354" alt="files" src="https://github.com/user-attachments/assets/e60d6f4a-3249-4b34-a942-52b232883d93" />
+<img width="2560" height="1439" alt="styles-final" src="https://github.com/user-attachments/assets/0854af6e-ccc4-4579-b0dd-0372c0e1e3d6" />
 <br>
 <br>
 <br>
 <br>
 <br>
 
-<img width="2482" height="1236" alt="Styles" src="https://github.com/user-attachments/assets/f6429720-1841-4d45-9ac0-6ca1858c9b00" />
+<img width="2560" height="1440" alt="preview-text-final" src="https://github.com/user-attachments/assets/efa34547-7a2e-469f-a476-63b4765232a7" />
 <br>
 <br>
 <br>
 <br>
 <br>
 
-<img width="2481" height="1327" alt="URL" src="https://github.com/user-attachments/assets/7d3cbd70-005d-471a-9092-e89356fd873e" />
+<img width="2560" height="1440" alt="url-final" src="https://github.com/user-attachments/assets/93ef8848-a16c-475c-be3a-0cf84434a654" />
 <br>
 <br>
 <br>
 <br>
 <br>
 
-<img width="2479" height="1284" alt="Quit" src="https://github.com/user-attachments/assets/937ed062-fc2b-4e02-bbaa-2e596b75edca" />
+<img width="2560" height="1439" alt="quit-final" src="https://github.com/user-attachments/assets/7e886d46-e950-4e4a-ac9c-f89658d2c7b0" />
+
 
 
