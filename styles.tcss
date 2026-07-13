@@ -1,0 +1,191 @@
+/* ==========================================================================
+   GLOBAL DESIGN CONSTANTS & MAIN APPLICATION BARS
+   ========================================================================== */
+
+#top-menu-bar {
+    height: auto;
+    width: 100%;
+    background: $surface;
+    border-bottom: solid $primary;
+    padding: 1 2;
+}
+
+.menu-trigger-btn {
+    width: 16;
+    height: 3;
+    background: $surface;
+    color: $text-muted;
+    border: round $primary;
+    margin-right: 1;
+}
+
+#btn-toggle-view {
+    height: 3;
+    width: 22;
+    background: $surface;
+    color: $text-muted;
+    border: round $primary;
+    margin: 0;
+}
+
+.menu-trigger-btn:hover, #btn-toggle-view:hover {
+    color: $accent;
+    border: round $accent;
+    background: $boost;
+}
+
+/* ==========================================================================
+   MAIN CORE CONTENT SCENARIOS
+   ========================================================================== */
+
+#editor-workspace {
+    width: 100%;
+    height: 1fr;
+    padding: 1;
+}
+
+#editor-switcher {
+    width: 100%;
+    height: 1fr;
+}
+
+#edit-view {
+    width: 100%;
+    height: 1fr; 
+    border: tall $primary;
+}
+
+#preview-view {
+    width: 100%;
+    height: 100%;
+    border: tall $success;
+    background: $surface;
+    padding: 2;
+    overflow-y: scroll;
+}
+
+/* FIXED TYPOGRAPHY COLLISION: Overrides layout crosstalk to ensure Heading 2 does not display as a blue link */
+#preview-view MarkdownH2 {
+    color: $text;
+    text-style: bold;
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+/* ==========================================================================
+   EXPORT & IMPORT FILE CONFIGURATION LAYERS
+   ========================================================================== */
+
+#export-dialog-view {
+    width: 100%;
+    height: 100%;
+    border: tall $accent;
+    background: $surface;
+}
+
+#directory-picker-pane {
+    width: 40%;
+    height: 100%;
+    border-right: solid $primary;
+    padding: 1;
+}
+
+#dir-tree {
+    width: 100%;
+    height: 1fr;
+    background: $boost;
+}
+
+#file-meta-pane {
+    width: 60%;
+    height: 100%;
+    padding: 1;
+    /* FIX: Added vertical scrolling capability so components are never hidden */
+    overflow-y: scroll; 
+}
+
+#picker-label, #meta-label, #quit-title-label, #style-title-label, #url-title-label {
+    text-style: bold;
+    color: $accent;
+    margin-bottom: 1;
+}
+
+#target-dir-display {
+    background: $boost;
+    padding: 1;
+    margin-bottom: 1;
+    border: round $primary;
+    color: $text-muted;
+    height: auto;
+}
+
+#open-tip-display {
+    color: $text-muted;
+    text-style: italic;
+    margin-bottom: 1;
+}
+
+#filename-input, #url-input {
+    margin-bottom: 1; /* FIX: Reduced from 2 to save valuable vertical canvas real estate */
+    border: tall $primary;
+}
+
+#dialog-actions-row, #url-actions-row {
+    height: 3; /* FIX: Changed from 'auto' to force the container to reserve the exact button height */
+    width: 100%;
+}
+
+.dialog-btn, .quit-btn, .style-menu-btn, .style-back-btn {
+    width: auto;
+    height: 3;
+    margin-right: 1;
+    background: $surface;
+    color: $text-muted;
+    border: round $primary;
+}
+
+.dialog-btn:hover, .quit-btn:hover, .style-menu-btn:hover, .style-back-btn:hover {
+    color: $accent;
+    border: round $accent;
+    background: $boost;
+}
+
+/* ==========================================================================
+   STYLE DASHBOARD SHORTCUT PANELS
+   ========================================================================== */
+
+#style-selector-view, #quit-dialog-view, #url-popup-view {
+    width: 100%;
+    height: 100%;
+    background: $surface;
+    padding: 2;
+    align: center middle;
+}
+
+#style-selector-view { border: tall $warning; }
+#quit-dialog-view { border: tall $error; }
+#url-popup-view { border: tall $accent; }
+
+#style-buttons-grid {
+    height: auto;
+    width: 80;
+    margin-top: 1;
+    layout: grid;
+    grid-size: 4 2;
+}
+
+.style-menu-btn, .quit-btn {
+    margin: 0 1;
+}
+
+.style-back-btn {
+    margin-top: 2;
+}
+
+#quit-actions-row {
+    width: auto;
+}
+
