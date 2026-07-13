@@ -3,7 +3,7 @@
 A full-screen, responsive, simple terminal Markdown Editor with MOUSE SUPPORT built with Python and Textual.
 I built it with AI in an afternoon because there is no simple mouse enabled terminal markdown editor.
 
-It has common features as clickable items. you can select the text and insert the syntax from styles, or just use your keyboard, whatever.
+It has common features as clickable items. You can select the text and insert the syntax from Styles menu, or just use your keyboard, whatever.
 It will probably never get updated because it does everything I set out to make it do.
 
 Cheers,
